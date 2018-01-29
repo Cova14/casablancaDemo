@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header id="top-header">
         <div class="bg-nav">
             <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-                <a id="title" class="navbar-brand" href="#">Casa Blanca</a>
+                <a id="title" class="navbar-brand" href="#">
+                    <img src="./logo.png" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -89,7 +91,7 @@
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a id="nav-item" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="material-icons">search</i>
+                                <i id="head" class="material-icons">search</i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <form class="form-inline my-2 my-lg-0">
@@ -99,7 +101,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a id="nav-item" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="material-icons">account_circle</i>
+                                <i id="head" class="material-icons">account_circle</i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">
@@ -115,7 +117,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a id="nav-item" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="material-icons">shopping_basket</i>
+                                <i id="head" class="material-icons">shopping_basket</i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <span class="navbar-text">
@@ -137,14 +139,14 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="http://images.all-free-download.com/images/graphicthumb/pink_roses_bouquet_picture_166711.jpg" alt="First slide">
+                    <img class="d-block w-100" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2016/11/slide1-h3.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>¡Oferta del 50%!</h5>
                         <p>Un regalo perfecto para mamá</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="http://images.all-free-download.com/images/graphicthumb/pink_roses_bouquet_picture_166711.jpg" alt="First slide">
+                    <img class="d-block w-100" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2016/11/slide2-h3.jpg" alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>¡Tu pareja se merece lo mejor!</h5>
                         <p>Este 14 de febrero sorpréndela con los mejores ramos</p>
@@ -239,38 +241,96 @@
             </div>
         </div>
         <div class="blog">
-                <div class="prod-title">
-                    <h3>Perfecto para cada ocasión</h3>
-                </div>
-                <div class="product">
-                    <div class="prod-1">
-                        <div id="first-card-blog" class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Cenas especiales</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit pariatur laudantium adipisci. Non, voluptatibus consequatur quod sequi et expedita magni. Deleniti culpa, voluptatibus minus est omnis delectus voluptas sit quibusdam!</p>
-                            </div>
-                       </div>
-                            
-                       <div id="blog" class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Bodas</h5>
-                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque labore esse quia porro debitis hic quam corrupti, harum maxime. Perferendis, ducimus id? Perferendis nisi recusandae commodi itaque culpa, dolor natus?</p>
-                            </div>
+            <div class="prod-title">
+                <h3>Perfecto para cada ocasión</h3>
+            </div>
+            <div class="product">
+                <div class="prod-1">
+                    <div id="first-card-blog" class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cenas especiales</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit pariatur laudantium adipisci. Non, voluptatibus consequatur quod sequi et expedita magni. Deleniti culpa, voluptatibus minus est omnis delectus voluptas sit quibusdam!</p>
                         </div>
-                        <div id="blog" class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Fiestas</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque non rem adipisci optio. Aspernatur asperiores illo quisquam omnis nesciunt? Voluptatum magnam consectetur odit aperiam quod fugit, minima voluptatem ullam?</p>
-                            </div>
-                        </div>          
                     </div>
+                        
+                    <div id="blog" class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bodas</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque labore esse quia porro debitis hic quam corrupti, harum maxime. Perferendis, ducimus id? Perferendis nisi recusandae commodi itaque culpa, dolor natus?</p>
+                        </div>
+                    </div>
+                    <div id="blog" class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/06/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Fiestas</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat cumque non rem adipisci optio. Aspernatur asperiores illo quisquam omnis nesciunt? Voluptatum magnam consectetur odit aperiam quod fugit, minima voluptatem ullam?</p>
+                        </div>
+                    </div>          
                 </div>
             </div>
-
+        </div>
+        <div class="options">
+            <div class="shipping">
+                <div class="icon">
+                    <i id="options" class="material-icons">local_shipping</i>
+                </div>
+                <div class="option-text">
+                    <p class="title">ENTREGA A DOMICILIO</p>
+                    <p class="subtitle">Tú eliges el destino</p>
+                </div>
+            </div>
+            <div class="exchanges">
+                <div class="icon">
+                    <i id="options" class="material-icons">autorenew</i>
+                </div>
+                <div class="option-text">
+                    <p class="title">INTERCAMBIOS Y DEVOLUCIONES</p>
+                    <p class="subtitle">30 días para devoluciones</p>
+                </div>
+            </div>
+            <div class="support">
+                <div class="icon">
+                    <i id="options" class="material-icons">supervisor_account</i>
+                </div>
+                <div class="option-text">
+                    <p class="title">APOYO EN LÍNEA</p>
+                    <p class="subtitle">Chat en vivo o llama 24/7</p>
+                </div>
+            </div>
+        </div>
+        <div class="sign up">
+            <div class="sign-text">
+                <p>
+                Suscribete para recibir noticias
+                </p>
+            </div>
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="inputPassword2" class="sr-only">Tu email</label>
+                    <input id="sign-input" type="text" class="form-control" id="inputPassword2" placeholder="Tu email">
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">¡Suscribete!</button>
+            </form>
+        </div>
     </main>
+    <footer>
+        <div class="foot">
+            <div class="foot-text">
+                <img id="logo-footer" src="./logo.png" alt="">
+                <p>
+                    7727277272 - recibeflores@ejemplo.com
+                </p>
+            </div>
+            <div class="line"></div>
+            <div class="copy">
+                <p>
+                    Copyright 2018 - Todos los derechos reservados - Actosoft Community
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
