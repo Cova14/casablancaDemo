@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-light{
+    background-color: rgba(51, 51, 51, 0.5)!important;
+    height: 15.5vh!important;   
+    position: fixed!important;
+    width: 100%;
+}
+a#title{
+    margin-right: 15vh!important;
+    margin-left: 3vh!important;
+    font-size: 2em;
+}
+#nav-item{
+    font-size: 0.80em!important;
+    color: white!important;
+}
+.nav-item{
+    margin-right: 1vh!important;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.1rem rgba(82, 102, 218, 0.3)!important;
+}
+#contact{
+    margin-right: -10vh!important;
+}
+.w-100{
+    height: 100vh!important;
+}
+.material-icons{
+    width: 1vh!important;
+    height: 1vh!important;
+    margin-right: 2vh;
+}
+.prod-title{
+    margin-top: 13vh;
+    margin-left: 15vh;
+    margin-bottom: 6vh;
+}
+#first-card{
+    margin-left: 16vh;
+}
+.card{
+    margin-right: 5vh!important;
+    width: 40vh!important;
+    height: 65vh!important;
+}
+.prod-1{
+    display: flex;
+    align-items: center;
+}
+.CEO-container{
+    margin-top: 10vh;
+    background-image: url("http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2016/11/bg-testimonial-h3.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 62vh;
+}
+.CEO-info{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.img-cont img{
+    width: 15vh;
+    height: 15vh;
+}
+.img-cont{
+    margin-left: 46.5%;
+    padding-top: 9.5vh;
+}
+.CEO-text{
+    padding-top: 5vh;
+    width: 160vh;
+    height: 30vh;
+    padding-left: 50vh;
+    text-align: center;
+    color:rgb(233, 233, 233);
+}
+.CEO-name{
+    padding-top: 3vh;
+}
+#best-seller{
+    margin-right: 5vh!important;
+    width: 80vh!important;
+    height: 80vh!important;
+    margin-top: -15vh;
+}
+#best-seller img{
+    width: 79.6vh;
+    height: 79vh;
+}
+#first-card-blog{
+    margin-left: 16vh;
+    width: 55.9vh!important;
+    height: 70vh!important;
+}
+#first-card-blog img{
+    width: 55.5vh;
+}
+#blog{
+    width: 55.9vh!important;
+    height: 70vh!important;
+}
