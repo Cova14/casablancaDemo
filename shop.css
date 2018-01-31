@@ -11,7 +11,7 @@ header nav {
     background-color: rgba(50, 50, 50, 0.5);
     font-weight: 500;
     padding: 15px;
-    z-index: 10000;
+    z-index: 1000;
     color: white;
   }
 #logo{
@@ -27,6 +27,7 @@ header nav {
     font-family: 'Roboto', sans-serif;
 }
 #head-back{
+    width: 100%;
     height: 15.5vh;
     background-color: rgb(233, 233, 233);
 }
@@ -52,13 +53,30 @@ main section article div {
     position: relative;
     border-radius: 2px;
     height: 35vh;
+    margin-bottom: 10vh;
 }
-article div{
+.card-2{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+.card-2:hover{
+    animation: opaci 0.5s 0s;
+    cursor: pointer;
+}
+@keyframes opaci{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+}
+article div.head-shop{
     display: flex;
     align-items: center;
     align-content: center;
 }
-article div p{
+article div.head-shop p{
     position: absolute;
     text-align: center;
     padding-left: 20vh;
@@ -70,22 +88,22 @@ article div p{
     padding-left: 17vh;
     padding-top: 23vh;
 }
-article div p a{
+article div.head-shop p a{
     color: white;
     text-decoration: none;
 }
-article div p a:hover{
+article div.head-shop p a:hover{
     color: purple;
 }
-aside h3{
+section#left h3{
     margin-bottom: 5vh;
 }
-aside p{
+section#left p{
     margin-bottom: 2vh;
     font-size: 1.1em;
     color: rgb(71, 71, 71)
 }
-aside i{
+section#left i{
     color: rgb(71, 71, 71)
 }
 #line{
@@ -93,8 +111,8 @@ aside i{
     height: 0.15vh;
     margin-bottom: 3vh;
 }
-p#bodas{
-    margin-bottom: 10vh;
+#bodas{
+    margin-bottom: 20vh;
 }
 #destacados{
     width: 100%;
@@ -103,4 +121,46 @@ p#bodas{
 }
 #destacados:hover{
     cursor: pointer;
+}
+#card-separation{
+    height: 20vh;
+}
+#left-section{
+    margin-bottom: 10vh;
+}
+.card-2-text{
+    margin-bottom: 10vh;
+    font-size: 1.2em;
+    color: rgb(49, 49, 49);
+    font-family: 'Raleway', sans-serif;
+}
+footer{
+    background-image:url("http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/08/bg-footer-h3-1.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -30vh;
+}
+footer div{
+    height: 55vh;
+    background-color: rgba(51, 51, 51, 0.9)
+}
+footer div img{
+    width: 20vh;
+    height: 20vh;
+}
+#logo-up{
+    height: 8vh;
+    visibility: hidden;
+}
+footer div p{
+    color: rgb(150, 150, 150);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10vh;
+}
+#foot-line{
+    width: 100%;
+    height: 0.18vh;
+    background-color: rgb(150, 150, 150);
+    margin-bottom: 2.5vh;
 }
