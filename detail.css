@@ -48,12 +48,21 @@ header nav {
 }
 #img-big{
     width: 100%;
-    height: 70vh;
+    height: 50vh;
+    margin-bottom: 5vh;
+}
+#img-small{
+    height: 15vh;
+    margin-bottom: 10vh;
+}
+#img-small:hover{
+    cursor: pointer;
 }
 #title-detail{
     font-size: 2.2em;
     color: rgb(50, 50, 50);
     margin-bottom: 6vh;
+    padding-top: 10vh;
 }
 #description-detail{
     font-size: 1.3em;
@@ -72,6 +81,8 @@ button{
     font-size: 1.8em;
     color: white;
     font-family: 'Raleway', sans-serif;
+    height: 8vh;
+    margin-bottom: 20vh;
 }
 button:hover{
     background-color: rgb(80, 80, 80);
@@ -83,4 +94,38 @@ input{
     font-size: 1em;
     text-align: center;
     margin-right: 4vh;
+}
+footer{
+    background-image:url("http://tivatheme.com/wp/byhands/home3/wp-content/uploads/2017/08/bg-footer-h3-1.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -30vh;
+}
+footer div{
+    height: 55vh;
+    background-color: rgba(51, 51, 51, 0.9)
+}
+footer div img{
+    width: 20vh;
+    height: 20vh;
+}
+#logo-up{
+    height: 8vh;
+    visibility: hidden;
+}
+footer div p.phone{
+    color: rgb(150, 150, 150);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10vh;
+}
+#foot-line{
+    width: 100%;
+    height: 0.18vh;
+    background-color: rgb(150, 150, 150);
+    margin-bottom: 2.5vh;
+}
+.copy{
+    color: rgb(150, 150, 150);
+    font-family: 'Raleway', sans-serif;
 }
